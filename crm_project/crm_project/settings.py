@@ -130,17 +130,3 @@ STATICFILES_DIRS = [
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
-
-#S3 BUCKETS CONFIG
-
-#AWS_ACCESS_KEY_ID = 'AKIA4SCRUIQG6HAPTIWG'
-#AWS_SECRET_ACCESS_KEY = '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'
-#AWS_STORAGE_BUCKET_NAME = 'nickzhurbich-crm-1'
-
-#AWS_S3_FILE_OVERWRITE = False
-#AWS_DEFAULT_ACL = None
-#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-#STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
-#AWS_S3_HOST = "s3.eu-west-2.amazonaws.com" 
-#AWS_S3_REGION_NAME="eu-west-2" 
